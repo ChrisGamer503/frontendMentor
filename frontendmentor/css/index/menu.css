@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    gap: 0;
+    margin: 0;
+}
+
+.menu{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    font-family: 'Barlow', sans-serif;
+    border-bottom: 1px solid rgb(219, 229, 230);
+    background-color: rgb(250, 250, 250);
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-git{
+    width: 25px;
+}
+
+.submenu{
+    display: flex;
+}
+
+.menu_link{
+    text-decoration: none;
+    color: black;
+    display:grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.linkpro{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.menu_link::after{
+    height: 2px;
+    content: "";
+    width: 0%;
+    background-color: red;
+    content: "";
+    transition: ease 0.3s ;
+}
+
+.menu_link:hover::after{
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    content: "";
+    transition: ease 0.3s ;
+}
+
+.pro{
+    background-color: rgb(62, 84, 163);
+    color: white;
+    font-size: 9.2px;
+    letter-spacing: 2px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.25rem 0.75rem;
+}
+
+.enlaces{
+    display: flex;
+    padding: 10px;
+}
+
+.btn_login{
+    font-family: 'Barlow', sans-serif;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
