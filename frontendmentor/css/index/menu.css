@@ -9,7 +9,7 @@
 
 .menu{
     display: flex;
-    padding: 10px;
+    padding: 10px 3rem;
     justify-content: space-between;
     font-family: 'Barlow', sans-serif;
     border-bottom: 1px solid rgb(219, 229, 230);
@@ -23,6 +23,7 @@
 
 .logo-git{
     width: 25px;
+    margin-left: 0.5rem;
 }
 
 .submenu{
@@ -50,6 +51,7 @@
     background-color: red;
     content: "";
     transition: ease 0.3s ;
+    margin-top: 0.4rem;
 }
 
 .menu_link:hover::after{
@@ -67,13 +69,13 @@
     letter-spacing: 2px;
     font-style: normal;
     font-weight: 700;
-    border-radius: 5px;
-    padding: 0.25rem 0.75rem;
+    border-radius: 3px;
+    padding: 0.25rem 0.4rem;
 }
 
 .enlaces{
     display: flex;
-    padding: 10px;
+    padding: 10px;  
 }
 
 .btn_login{
@@ -81,8 +83,9 @@
     background-color: black;
     color: white;
     border-radius: 30px;
-    padding: 10px;
     display: flex;
     align-items: center;
+    font-size: 1rem;
+    padding: 0 1.5rem;
 }
 
